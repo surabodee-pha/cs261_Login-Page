@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cs261 Assignment 1 - 6609650707</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+                    <span class="login100-form-title">Login Page</span>
+
+                    <!--valid success-->
+                    <div class="login100-form-title" id="result" style="display: none;">
+                        <span id="displayname_th"></span>
+                    </div>					
+
+                    <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+                        <input class="input100" id="username" type="text" name="username" placeholder="Username">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Please enter password">
+                        <input class="input100" id="password" type="password" name="pass" placeholder="Password">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-role validate-input">
+                        <div class="role">
+                            <select class="input100" id="role" style="width:200px;">
+                                <option value="">Select your role</option>
+                                <option value="student">Student</option>
+                                <option value="professor">Professor</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button type="button" id="login-btn" class="login100-form-btn">Login</button>
+                    </div>
+
+                    <div>
+                        <img src="image/tulogo.png" alt="Logo Thammasat" class="logo" width="150" height="150">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
